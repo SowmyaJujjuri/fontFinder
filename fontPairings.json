@@ -1,0 +1,47 @@
+[
+    {
+        "font": "Libre Baskerville",
+        "fontPairing": "Source Sans Pro"
+    },
+    {
+        "font": "Source Sans Pro",
+        "fontPairing": "Libre Baskerville"
+    },
+    {
+        "font": "Rubik",
+        "fontPairing": "Karla"
+    },
+    {
+        "font": "Karla",
+        "fontPairing": "Rubik"
+    },
+    {
+        "font": "Domine",
+        "fontPairing": "Roboto"
+    },
+    {
+        "font": "Roboto",
+        "fontPairing": "Domine"
+    },
+    {
+        "font": "Poppins",
+        "fontPairing": "PT Serif"
+    },
+    {
+        "font": "PT Serif",
+        "fontPairing": "Poppins"
+    },
+    {
+        "font": "Poppins",
+        "fontPairing": "PT Serif"
+    },
+    {
+        "font": "Alegraya Sans SC",
+        "fontPairing": "Source Sans Pro"
+    },
+    {
+        "font": "Source Sans Pro",
+        "fontPairing": "Alegraya Sans SC"
+    }
+]
+  
