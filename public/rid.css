@@ -5,25 +5,113 @@
     font-size: 80px;
     margin: 0 0 0 20px;
     padding-top: 30px;
+}
+
+.site-title a{
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffec89;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.dropdown {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+  
+.dropdown-content {
+  justify-content: right;
+}
+
+/* .font{
+  /*transform: translate(-50%, -50%);*/
+  /* margin-left: auto;
+  margin-right: 20px;
+  background: #ffec89;
+  color: blueviolet;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5);  */
+/*  } */ */
+
+.chosen-font h2{
+  font-family: baskerville-display-pt, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.paired-font {
+  font-family: baskerville-display-pt, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paired-font h2{
+  font-family: "rig-solid-medium-outline", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chosen-font{
+  font-family: "rig-solid-medium-outline", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  
+.doggo{
+  font-family: "rig-solid-medium-outline", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.output{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+}
+
+
+/* .body{
+  background-color:lightblue;
+}
+.site-title {
+    font-family: halyard-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0 0 0 20px;
+    padding-top: 30px;
   }
 
   .site-title a{
     text-decoration: none;
   }
 
-  header {
+  .header {
     background-color: #ffec89;
     display: flex;
     align-items: center;
     position: relative;
   }
 
-  .dropdown {
+   .dropdown {
     width: 40%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
+
+  } 
 
   .dropdown-content {
     justify-content: right;
@@ -31,17 +119,16 @@
 
   .font{
     /*transform: translate(-50%, -50%);*/
-    margin-left: auto;
-    margin-right: 20px;
+    /*margin-left: auto;
+    margin-right: 20px;*/
     background: #ffec89;
-    color: blueviolet;
     padding: 10px;
     width: 250px;
     height: 50px;
     border: none;
     font-size: 20px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.5); 
-  }
+  } 
 
   .chosen-font h2{
     font-family: baskerville-display-pt, serif;
@@ -74,68 +161,18 @@
   }
 
   .output{
+    
     width: 100%;
   }
 
   .content{
     display: flex;
   }
-  /* .dropdown{
-    position: relative;
-    display: inline-block;
-  }
 
-  .dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: red;
-    min-width: 160px;
-    box-shadow: 0px, 8px, 16px, 0px rgba(0,0,0,0.2);
-    padding: 12px, 16px;
-    z-index: 1;
-  }
-
-  .dropdown:hover .dropdown-content{
+  .header-image-container{
     display: block;
-  } */
-
-  /* .dropbtn {
-      background-color: #4CAF50;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
-    
-    /* The container <div> - needed to position the dropdown content */
-    /* .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    /* Dropdown Content (Hidden by Default) */
-    /* .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-     */
-    /* Links inside the dropdown */
-    /* .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-     */
-    /* Change color of dropdown links on hover */
-    /* .dropdown-content a:hover {background-color: #ddd;} */
-    
-    /* Show the dropdown menu on hover */
-    /* .dropdown:hover .dropdown-content {display: block;} */
-    
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */ */ */
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+  } 
+ */
