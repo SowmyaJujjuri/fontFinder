@@ -1,47 +1,42 @@
 [
     {
-        "font": "Libre Baskerville",
-        "fontPairing": "Source Sans Pro"
+        "font": "Arial",
+        "fontPairing": "Arial Black"
     },
     {
-        "font": "Source Sans Pro",
-        "fontPairing": "Libre Baskerville"
+        "font": "Arial Black",
+        "fontPairing": "Arial"
     },
     {
-        "font": "Rubik",
-        "fontPairing": "Karla"
+        "font": "Comic Sans MS",
+        "fontPairing": "Impact"
     },
     {
-        "font": "Karla",
-        "fontPairing": "Rubik"
+        "font": "Impact",
+        "fontPairing": "Comic Sans MS"
     },
     {
-        "font": "Domine",
-        "fontPairing": "Roboto"
+        "font": "Lucida Sans Unicode",
+        "fontPairing": "Tahoma"
     },
     {
-        "font": "Roboto",
-        "fontPairing": "Domine"
+        "font": "Tahoma",
+        "fontPairing": "Lucida Sans Unicode"
     },
     {
-        "font": "Poppins",
-        "fontPairing": "PT Serif"
+        "font": "Trebuchet MS",
+        "fontPairing": "Verdana"
     },
     {
-        "font": "PT Serif",
-        "fontPairing": "Poppins"
+        "font": "Verdana",
+        "fontPairing": "Trebuchet MS"
     },
     {
-        "font": "Poppins",
-        "fontPairing": "PT Serif"
+        "font": "Courier New",
+        "fontPairing": "Lucida Console"
     },
     {
-        "font": "Alegraya Sans SC",
-        "fontPairing": "Source Sans Pro"
-    },
-    {
-        "font": "Source Sans Pro",
-        "fontPairing": "Alegraya Sans SC"
+        "font": "Lucida Console",
+        "fontPairing": "Courier New"
     }
 ]
-  
