@@ -39,6 +39,24 @@ app.get('/', function(req, res){
 	console.log(op);
 });
 
+app.get('/:n', function(req, res){
+	var n = req.params.n;
+	if(n >= 0 && n < 10){
+		var op = fontData[n];
+		res.status(200).render('body', {
+			output:op,
+			font: fontData[n].font,
+			fontPairing: fontData[n].fontPairing,
+			displayFilter: true,
+			displayModal: true
+		});
+		console.log(op);
+	}
+	else{
+		res.status(404).render('404');
+	}
+});
+
 app.get('*', function(req, res){
 	res.status(404).render('404');
 });

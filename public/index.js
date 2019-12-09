@@ -1,17 +1,19 @@
-var chosenHead = document.getElementById('chosen-header');
-var paired = document.getElementById('paired-para');
+var fonts = ["Arial", "Arial Black", "Arial Black", "Arial", "Comic Sans MS", "Impact", "Impact", "Comic Sans MS", "Lucida Sans Unicode", "Tahoma", "Tahoma", "Lucida Sans Unicode", "Trebuchet MS", "Verdana", "Verdana", "Trebuchet MS", "Courier New", "Lucida Console", "Lucida Console", "Courier New"];
 
-var pairedHead = document.getElementById('paired-header');
-var chosen = document.getElementById('chosen-para');
+var chosenHead = document.getElementsByClassName('chosen-header');
+var paired = document.getElementsByClassName('paired-para');
 
-var doggo = document.getElementById('doggo');
+var pairedHead = document.getElementsByClassName('paired-header');
+var chosen = document.getElementsByClassName('chosen-para');
+
+var doggo = document.getElementsByClassName('doggo');
 
 function changeFont(idx){
-  chosenHead.style.fontFamily = fontData[idx].font;
-  chosen.style.fontFamily = fontData[idx].font;
-  pairedHead.style.fontFamily = fontData[idx].fontPairing;
-  paired.style.fontFamily = fontData[idx].fontPairing;
-  doggo.style.fontFamily = fontData[idx].fontPairing;
+  chosenHead.style.fontFamily = "Comic Sans MS";
+  chosen.style.fontFamily = "Comic Sans MS";
+  pairedHead.style.fontFamily = "Comic Sans MS";
+  paired.style.fontFamily = "Comic Sans MS";
+  doggo.style.fontFamily = "Comic Sans MS";
 }
 
-var drop = document.getElementById('inputFont').onchange = changeFont(this.value);
+var drop = document.getElementsByClassName('inputFont').onchange = changeFont(this.value);
