@@ -1,10 +1,54 @@
+.select{
+  font-family: "rig-solid-bold-reverse", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  padding-top: 30px;
+  margin-left: 20px;
+  color: #2C5A8E;
+}
+
+#update{
+  background-color: #E5EBF9; /* yellow */
+  border: none;
+  color: #2C5A8E;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  width: 78%;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+
+#update:hover{
+  background-color: #2C5A8E; /* Green */
+  color: white;
+}
+.font{
+  font-family:
+}
+footer{
+  background-color: #E5EBF9;
+  padding: 10px;
+  text-align: left;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+footer h3{
+  color: #2C5A8E;
+  text-align: center;
+}
 .site-title {
-    font-family: "rig-solid-medium-outline", sans-serif;
+    font-family: "rig-solid-bold-fill", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 80px;
-    margin: 0 0 0 20px;
-    padding-top: 30px;
+    font-size: 90px;
+    color: #2C5A8E;
+    margin: 30px 30px 30px 40px;
 }
 
 .site-title a{
@@ -12,21 +56,29 @@
 }
 
 header {
-  background-color: #ffec89;
+  background-color: #E5EBF9;
   display: flex;
   align-items: center;
   position: relative;
+  border-radius: 25px;
 }
 
 .dropdown {
+  /* top: -30px; */
   width: 40%;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   align-items: center;
+  padding: 20px;
 }
 
 .dropdown-content {
   justify-content: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 78%;
+  height: 40px;
 }
 
 /* .font{
@@ -75,13 +127,19 @@ header {
 
 .output{
   width: 100%;
+  margin-right: 40px;
+  margin-top: 30px;
+  color: #0B1C30;
 }
 
 .content{
   display: flex;
 }
 
-
+html{
+  /* background-color: #DBD3D8; */
+  margin: 50px;
+}
 /* .body{
   background-color:lightblue;
 }

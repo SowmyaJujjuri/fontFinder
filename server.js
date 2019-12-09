@@ -28,11 +28,11 @@ app.get('/test', function(req, res){
 });
 
 app.get('/', function(req, res){
-	var op = fontData[0];
+	var op = fontData[4];
 	res.status(200).render('body', {
 		output:op,
-		font: fontData[0].font,
-		fontPairing: fontData[0].fontPairing,
+		font: fontData[4].font,
+		fontPairing: fontData[4].fontPairing,
 		displayFilter: true,
 		displayModal: true
 	});
