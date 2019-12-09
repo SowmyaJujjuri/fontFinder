@@ -21,6 +21,7 @@ templates['output'] = template({"compiler":[8,">= 4.3.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.font || (depth0 != null ? depth0.font : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"font","hash":{},"data":data,"loc":{"start":{"line":18,"column":52},"end":{"line":18,"column":60}}}) : helper)))
     + ". Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n            Phasellus volutpat a orci et hendrerit. In nunc justo, tincidunt eu turpis quis, luctus rutrum neque.\n            Pellentesque dignissim, elit ut sollicitudin maximus, enim sapien tristique justo, id cursus\n            risus orci nec dui. Quisque vestibulum eros ut metus convallis, eget auctor massa interdum. </p>\n          </span>\n        </div>\n        <div class=\"doggo\" style=\"font-family: "
     + alias4(((helper = (helper = helpers.fontPairing || (depth0 != null ? depth0.fontPairing : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"fontPairing","hash":{},"data":data,"loc":{"start":{"line":24,"column":47},"end":{"line":24,"column":62}}}) : helper)))
-    + "\">\n        <h3> Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz\n                The quick brown fox jumps over the lazy dog\n        </h3>\n        </div>\n</div>\n";
+    + "\">\r\n        <footer>\r\n          <h3>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</h3>\r\n          <h3>The quick brown fox jumps over the lazy dog</h3>\r\n        </footer>\r\n        </div>\r\n</div>\r\n";
+=======
 },"useData":true});
 })();
